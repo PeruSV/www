@@ -39,3 +39,9 @@ To run the sql file:
 $ cd /go/to/sql/file.sql
 $ mysql -u[user] -p [database] < file.sql
 ```
+
+Add this to your /etc/hosts file
+
+```
+127.0.0.1 perusv.loc
+```
