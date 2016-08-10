@@ -22,27 +22,6 @@
 <div id="page" class="hfeed site">
   <a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'gateway' ); ?></a>
 
-<div class="bg-image bg-image-header bg-center-center">
-
-  <div class="site-branding">
-
-    <?php 
-      $header_logo = get_theme_mod( 'header_logo', customizer_library_get_default( 'header_logo' ) ); if ( ! $header_logo ) { ?>
-
-      <h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home" alt="<?php bloginfo( 'name' ); ?>"><?php bloginfo( 'name' ); ?></a></h1>
-
-      <h2><?php bloginfo( 'description' ); ?></h2>
-
-    <?php } else { ?>
-
-      <a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img class="logo" src="<?php echo esc_url( $header_logo ); ?>" alt=""></a>
-
-    <?php } ?>
-
-  </div><!-- .site-branding -->
-
-</div><!-- .bg-image .bg-image-header .bg-center-center -->
-
   <header id="masthead" class="site-header" role="banner">
 
     <div class="stick">
@@ -80,5 +59,27 @@
     </div><!-- .sticky -->
 
   </header><!-- .row #masthead -->
+
+
+    <div class="bg-image bg-image-header bg-center-center">
+
+      <div class="site-branding">
+
+        <?php 
+          $header_logo = get_theme_mod( 'header_logo', customizer_library_get_default( 'header_logo' ) ); if ( ! $header_logo ) { ?>
+
+          <h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home" alt="<?php bloginfo( 'name' ); ?>"><?php bloginfo( 'name' ); ?></a></h1>
+
+          <h2><?php bloginfo( 'description' ); ?></h2>
+
+        <?php } else { ?>
+
+          <a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img class="logo" src="<?php echo esc_url( $header_logo ); ?>" alt=""></a>
+
+        <?php } ?>
+
+      </div><!-- .site-branding -->
+
+    </div><!-- .bg-image .bg-image-header .bg-center-center -->
 
   <div id="content" class="site-content">
