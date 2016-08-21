@@ -26,12 +26,7 @@
 
     <div class="stick">
 
-      <nav class="top-bar" data-topbar data-options="mobile_show_parent_link: true">
-
-        <ul class="title-area">
-          <li class="name"></li>
-          <li class="toggle-topbar menu-icon"><a href="#"><span><?php _e('Menu','gateway'); ?></span></a></li>
-        </ul>
+      <!--nav class="top-bar" data-topbar data-options="mobile_show_parent_link: true">
 
         <section class="top-bar-section">
 
@@ -42,7 +37,7 @@
                   'container'      =>  false,
                   'menu_class'     =>  'right',
                   'depth'          =>  5,
-                  'fallback_cb'    => 'gateway_demo_header_nav', // located at 'inc/template-tags.php'
+                  'fallback_cb'    => 'peru_sv_header_nav', // located at 'inc/template-tags.php'
                   'items_wrap'     =>  '<ul id="%1$s" class="%2$s">%3$s</ul>',
                   'walker'         =>  new gateway_foundation_walker()
             );
@@ -51,9 +46,46 @@
           ?>
 
         </section>
+        <section class="top-bar-section cta_header_button">
+          <form>
+            <button type="submit">
+              Participa
+            </button>
+          </form>
+        </section>
 
+      </nav-->
+      <nav class="psv-top-bar">
+        <ul>
+          <li>
+          <a href="#" class="active">
+            Inicio
+          </a>
+          </li>
+          <li>
+            <a href="#">
+              Mision
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              Eventos
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              Contacto
+            </a>
+          </li>
+        </ul>
       </nav>
-
+      <section class="psv-cta-header-button">
+          <form>
+            <button type="submit">
+              Participa
+            </button>
+          </form>
+        </section>
       <hr>
 
     </div><!-- .sticky -->
