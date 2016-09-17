@@ -123,4 +123,17 @@
       <div>Slide 3</div>
     </div>
 
+     <div class="psv-sub-banner">
+      <div class="psv-sub-banner-container">
+        <p>Ayudanos a colaborar. Haz tus preguntas a la comunidad:</p>
+        <div class="psv-cta-sub-banner-button">
+          <form action="https://goo.gl/forms/yVnKg0IoyDnMWSdW2" target="new">
+            <button type="submit">
+              Pregúntanos
+            </button>
+          </form>
+        </div>
+      </div>
+    </div><!-- .psv-sub-banner -->
+
   <div id="content" class="site-content">
