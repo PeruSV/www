@@ -63,7 +63,7 @@
           </a>
           </li>
           <li>
-            <a href="#">
+            <a href="index.php/mision/">
               Mision
             </a>
           </li>
