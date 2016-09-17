@@ -82,7 +82,7 @@
       <section class="psv-cta-header-button">
           <form action="https://goo.gl/forms/yVnKg0IoyDnMWSdW2" target="new">
             <button type="submit">
-              Participa
+              Únete a la Red
             </button>
           </form>
         </section>
@@ -125,11 +125,11 @@
 
      <div class="psv-sub-banner">
       <div class="psv-sub-banner-container">
-        <p>Ayudanos a colaborar. Haz tus preguntas a la comunidad:</p>
+        <p>Preguntas. Ideas. Compártelas con la red:</p>
         <div class="psv-cta-sub-banner-button">
           <form action="https://goo.gl/forms/yVnKg0IoyDnMWSdW2" target="new">
             <button type="submit">
-              Pregúntanos
+              Aquí
             </button>
           </form>
         </div>
