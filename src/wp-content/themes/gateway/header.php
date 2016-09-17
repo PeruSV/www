@@ -58,7 +58,7 @@
       <nav class="psv-top-bar">
         <ul>
           <li>
-          <a href="#" class="active">
+          <a href="/" class="active">
             Inicio
           </a>
           </li>
