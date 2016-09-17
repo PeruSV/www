@@ -6,34 +6,6 @@
 
 get_header(); ?>
 
-<div class="blog_page_titles">
-
-	<div class="row blog_page_titles">
-		
-		<div class="large-12 columns">
-			
-			<?php 
-				$blog_title = get_theme_mod( 'blog_title', 'Latest News' ); 
-				if ( isset( $blog_title ) ) { 
-					echo "<h2>";
-					echo esc_attr( $blog_title );
-					echo "</h2>";
-				}
-
-				$blog_subtitle = get_theme_mod( 'blog_subtitle', 'Change these titles to anything in the customizer.' ); 
-				if ( isset( $blog_subtitle ) ) { 
-					echo "<h3>";
-					echo esc_attr( $blog_subtitle );
-					echo "</h3>";
-				}
-			?>
-
-		</div><!-- .large-12 -->
-
-	</div><!-- .row -->
-
-</div><!-- .blog_page_titles -->
-
 <div class="row">
 
 	<div id="primary" class="content-area">
