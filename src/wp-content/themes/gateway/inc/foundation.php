@@ -6,7 +6,8 @@
 if ( ! function_exists( 'gateway_enqueue_foundation' ) ) :
 
 	function gateway_enqueue_foundation() {
-		wp_enqueue_style( 'gateway-foundation-style', get_template_directory_uri() . '/app.css' );
+    wp_enqueue_style( 'gateway-foundation-style', get_template_directory_uri() . '/app.css' );
+		wp_enqueue_style( 'perusv-style', get_template_directory_uri() . '/peru-sv-styles.css' );
 		wp_enqueue_script( 'gateway-foundation-js', get_template_directory_uri() . '/js/foundation.js', array( 'jquery' ), '5.4.5', true );
 		wp_enqueue_script( 'gateway-modernizr', get_template_directory_uri() . '/js/modernizr.js', array(), '2.8.3', true );
 	}

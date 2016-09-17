@@ -93,6 +93,7 @@
   </header><!-- .row #masthead -->
 
 
+    <?php /*
     <div class="bg-image bg-image-header bg-center-center">
 
       <div class="site-branding">
@@ -112,6 +113,14 @@
 
       </div><!-- .site-branding -->
 
+
     </div><!-- .bg-image .bg-image-header .bg-center-center -->
+    */ ?>
+
+    <div class="peru-sv-slider-wrapper">
+      <div>Slide 1</div>
+      <div>Slide 2</div>
+      <div>Slide 3</div>
+    </div>
 
   <div id="content" class="site-content">
