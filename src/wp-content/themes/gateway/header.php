@@ -80,7 +80,7 @@
         </ul>
       </nav>
       <section class="psv-cta-header-button">
-          <form>
+          <form action="https://goo.gl/forms/yVnKg0IoyDnMWSdW2" target="new">
             <button type="submit">
               Participa
             </button>
