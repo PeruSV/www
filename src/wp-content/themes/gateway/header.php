@@ -127,7 +127,7 @@
       <div class="psv-sub-banner-container">
         <p>Preguntas. Ideas. Compártelas con la red:</p>
         <div class="psv-cta-sub-banner-button">
-          <form action="https://goo.gl/forms/yVnKg0IoyDnMWSdW2" target="new">
+          <form action="https://goo.gl/forms/VjIt2IlFazHGaUY72" target="new">
             <button type="submit">
               Aquí
             </button>
