@@ -70,7 +70,7 @@ function customizer_library_gateway_options() {
 		'label'   	=>  __( 'Inner pages header background', 'gateway' ),
 		'section' 	=> $section,
 		'type'    	=> 'image',
-		'default' 	=> $imagepath . 'hero-bg.jpg'
+		'default' 	=> $imagepath . 'perusv_bg_web.jpg'
 	);
 
 	$options['header_color'] = array(

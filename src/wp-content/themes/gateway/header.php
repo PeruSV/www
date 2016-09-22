@@ -92,8 +92,6 @@
 
   </header><!-- .row #masthead -->
 
-
-    <?php /*
     <div class="bg-image bg-image-header bg-center-center">
 
       <div class="site-branding">
@@ -110,18 +108,24 @@
           <a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img class="logo" src="<?php echo esc_url( $header_logo ); ?>" alt=""></a>
 
         <?php } ?>
+        <div class = "psv-header-motto">
+        <hr>
+          <p>
+            Red de peruanos en tecnología de Silicon Valley </br>
+            Creando un puente de colaboración con el Perú
+          </p>
+        </div>
 
       </div><!-- .site-branding -->
 
 
     </div><!-- .bg-image .bg-image-header .bg-center-center -->
-    */ ?>
-
-    <div class="peru-sv-slider-wrapper">
+    <!--div class="peru-sv-slider-wrapper">
+      <img src="wp-content/themes/gateway/img/perusv_bg_web.jpg">
       <div>Slide 1</div>
       <div>Slide 2</div>
       <div>Slide 3</div>
-    </div>
+    </div-->
 
      <div class="psv-sub-banner">
       <div class="psv-sub-banner-container">
