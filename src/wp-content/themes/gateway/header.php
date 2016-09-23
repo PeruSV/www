@@ -68,7 +68,7 @@
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href="index.php/eventos-de-la-red/">
               Eventos
             </a>
           </li>
