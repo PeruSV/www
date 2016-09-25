@@ -74,6 +74,23 @@ peru-sv
 }
 .psv-header-motto p{
   color: white;
-  font-size: 20px;
+  font-size: 25px;
   -webkit-font-smoothing: antialiased;
+}
+.psv-mision-banner-container{
+  color: white;
+  text-align: left;
+  font-style: normal;
+  display: flex;
+  justify-content: left;
+  padding-top: 100px;
+  padding-bottom: 150px;
+  margin-left: 150px;
+}
+.psv-mision-banner-container a{
+  margin: 0 20px;
+}
+
+.psv-mission-header-motto p{
+  line-height: 50px;
 }

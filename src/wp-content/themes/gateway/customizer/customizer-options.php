@@ -82,6 +82,29 @@ function customizer_library_gateway_options() {
 		'transport'	=> 'postMessage'
 	);
 
+	// Mision
+	$sections[] = array(
+		'id' 			=> $section,
+		'title' 		=> __( 'Mision', 'gateway' ),
+		'priority'	 	=> '10',
+		'description' 	=> __( 'Image will display in the header.', 'gateway' ),
+		'panel' 		=> $panel
+	);
+
+	$options['mision_logo'] = array(
+		'id' 		=> 'mision_logo',
+		'label'   	=> __( 'Logo', 'gateway' ),
+		'section' 	=> $section,
+		'type'    	=> 'image',
+		'default' 	=> $imagepath . 'mision-logo.png'
+	);
+	$options['mission_header_bg'] = array(
+		'id' 		=> 'mission_header_bg',
+		'label'   	=>  __( 'Inner pages mision background', 'gateway' ),
+		'section' 	=> $section,
+		'type'    	=> 'image',
+		'default' 	=> $imagepath . 'perusv_mision_bg_web.jpg'
+	);
 
 	// Home
 	$section = 'home';

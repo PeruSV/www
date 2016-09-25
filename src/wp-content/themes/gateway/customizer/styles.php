@@ -135,6 +135,9 @@ function customizer_library_gateway_styles() {
 	$header_color = get_theme_mod( 'header_color' , customizer_library_get_default( 'header_color' ) );
 	$bg_attachement = get_theme_mod( 'bg_attachement' , customizer_library_get_default( 'bg_attachement' ) );
 
+	$mission_header_bg = get_theme_mod( 'mission_header_bg' , customizer_library_get_default( 'mission_header_bg' ) );
+
+
 	echo "\n<!-- Begin Custom CSS -->\n<style type=\"text/css\" id=\"rescue_custom_css\">\n"; ?>
 
 	.home-header-bg {
@@ -166,6 +169,15 @@ function customizer_library_gateway_styles() {
 
 	.bg-image-header {
 		background:url( '<?php echo esc_url( $header_bg ) ?>' ) center bottom <?php echo esc_attr( $header_color ) ?>;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		height: 100%;
+	}
+
+	.bg-mision-image-header {
+		background:url( '<?php echo esc_url( $mission_header_bg ) ?>' ) center bottom <?php echo esc_attr( $header_color ) ?>;
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
 		-o-background-size: cover;

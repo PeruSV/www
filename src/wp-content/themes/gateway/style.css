@@ -225,7 +225,7 @@ object {
 /*--------------------------------------------------------------
 6.0 Header
 --------------------------------------------------------------*/
-.bg-image-header .site-branding, .home-header-bg .site-branding {
+.bg-image-header .site-branding, .home-header-bg .site-branding, .bg-mision-image-header .site-branding {
   padding: 2.188em 0;
   text-align: center;
   display: block;

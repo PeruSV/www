@@ -39,27 +39,17 @@
 
   </header><!-- .row #masthead -->
 
-  <div class="bg-image bg-image-header bg-center-center">
+  <div class="bg-image bg-mision-image-header bg-center-center">
 
-      <div class="site-branding">
+      <div class="psv-mision-banner-container">
 
         <?php 
-          $header_logo = get_theme_mod( 'header_logo', customizer_library_get_default( 'header_logo' ) ); if ( ! $header_logo ) { ?>
-
-          <h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home" alt="<?php bloginfo( 'name' ); ?>"><?php bloginfo( 'name' ); ?></a></h1>
-
-          <h2><?php bloginfo( 'description' ); ?></h2>
-
-        <?php } else { ?>
-
-          <a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img class="logo" src="<?php echo esc_url( $header_logo ); ?>" alt=""></a>
-
-        <?php } ?>
-        <div class = "psv-header-motto">
-        <hr>
+          $mision_logo = get_theme_mod( 'mision_logo', customizer_library_get_default( 'mision_logo' ) ); ?>
+          <a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img class="logo" src="<?php echo esc_url( $mision_logo ); ?>" alt=""></a>
+        <div class = "psv-header-motto psv-mission-header-motto">
           <p>
-            Red de peruanos en tecnología de Silicon Valley </br>
-            Creando un puente de colaboración con el Perú
+            Establecer un puente de colaboración con las necesidades reales de <br>
+			conocimiento tecnológico entre el Perú y Silicon Valley.
           </p>
         </div>
 
