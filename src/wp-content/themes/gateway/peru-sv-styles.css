@@ -111,3 +111,7 @@ peru-sv
 .psv-events-header-motto p{
   line-height: 50px;
 }
+
+.psv-page-post {
+  display: inline-block;
+}
