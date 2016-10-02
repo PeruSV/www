@@ -82,28 +82,54 @@ function customizer_library_gateway_options() {
 		'transport'	=> 'postMessage'
 	);
 
-	// Mision
+	// Mission
+	$section = 'mission';
 	$sections[] = array(
 		'id' 			=> $section,
-		'title' 		=> __( 'Mision', 'gateway' ),
+		'title' 		=> __( 'Mission', 'gateway' ),
 		'priority'	 	=> '10',
 		'description' 	=> __( 'Image will display in the header.', 'gateway' ),
 		'panel' 		=> $panel
 	);
 
-	$options['mision_logo'] = array(
-		'id' 		=> 'mision_logo',
+	$options['mission_logo'] = array(
+		'id' 		=> 'mission_logo',
 		'label'   	=> __( 'Logo', 'gateway' ),
 		'section' 	=> $section,
 		'type'    	=> 'image',
-		'default' 	=> $imagepath . 'mision-logo.png'
+		'default' 	=> $imagepath . 'small-logo.png'
 	);
 	$options['mission_header_bg'] = array(
 		'id' 		=> 'mission_header_bg',
-		'label'   	=>  __( 'Inner pages mision background', 'gateway' ),
+		'label'   	=>  __( 'Inner pages mission background', 'gateway' ),
 		'section' 	=> $section,
 		'type'    	=> 'image',
-		'default' 	=> $imagepath . 'perusv_mision_bg_web.jpg'
+		'default' 	=> $imagepath . 'perusv_mission_bg_web.jpg'
+	);
+
+	// Events
+	$section = 'events';
+	$sections[] = array(
+		'id' 			=> $section,
+		'title' 		=> __( 'Events', 'gateway' ),
+		'priority'	 	=> '10',
+		'description' 	=> __( 'Image will display in the header.', 'gateway' ),
+		'panel' 		=> $panel
+	);
+
+	$options['events_logo'] = array(
+		'id' 		=> 'events_logo',
+		'label'   	=> __( 'Logo', 'gateway' ),
+		'section' 	=> $section,
+		'type'    	=> 'image',
+		'default' 	=> $imagepath . 'small-logo.png'
+	);
+	$options['events_header_bg'] = array(
+		'id' 		=> 'events_header_bg',
+		'label'   	=>  __( 'Inner pages events background', 'gateway' ),
+		'section' 	=> $section,
+		'type'    	=> 'image',
+		'default' 	=> $imagepath . 'perusv_events_bg_web.jpg'
 	);
 
 	// Home

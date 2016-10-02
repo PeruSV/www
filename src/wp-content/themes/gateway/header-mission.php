@@ -1,6 +1,6 @@
 <?php
 /**
- * The header for template-home.php
+ * The header for template-mission.php
  *
  * Displays all of the <head> section and everything up till <div id="content">
  *
@@ -39,13 +39,13 @@
 
   </header><!-- .row #masthead -->
 
-  <div class="bg-image bg-mision-image-header bg-center-center">
+  <div class="bg-image bg-mission-image-header bg-center-center">
 
-      <div class="psv-mision-banner-container">
+      <div class="psv-mission-banner-container">
 
         <?php 
-          $mision_logo = get_theme_mod( 'mision_logo', customizer_library_get_default( 'mision_logo' ) ); ?>
-          <a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img class="logo" src="<?php echo esc_url( $mision_logo ); ?>" alt=""></a>
+          $mission_logo = get_theme_mod( 'mission_logo', customizer_library_get_default( 'mission_logo' ) ); ?>
+          <a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img class="logo" src="<?php echo esc_url( $mission_logo ); ?>" alt=""></a>
         <div class = "psv-header-motto psv-mission-header-motto">
           <p>
             Establecer un puente de colaboración con las necesidades reales de <br>

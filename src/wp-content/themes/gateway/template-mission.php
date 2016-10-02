@@ -1,10 +1,10 @@
 <?php
 /*
- * Template Name: Mision
+ * Template Name: Mission
  *
  */
 
-get_header('mision'); ?>
+get_header('mission'); ?>
 
 <div class="row">
 

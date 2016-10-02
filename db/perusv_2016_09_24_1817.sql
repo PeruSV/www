@@ -159,7 +159,7 @@ CREATE TABLE `wp_popularpostsdata` (
   `last_viewed` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
   `pageviews` bigint(20) DEFAULT '1',
   PRIMARY KEY (`postid`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -189,7 +189,7 @@ CREATE TABLE `wp_popularpostssummary` (
   KEY `postid` (`postid`),
   KEY `view_date` (`view_date`),
   KEY `last_viewed` (`last_viewed`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
