@@ -39,52 +39,80 @@
 
   </header><!-- .row #masthead -->
 
-    <div class="bg-image bg-image-header bg-center-center">
+  <div class="psv-slider-wrapper">
+    <div class="psv-slider-inner-wrapper">
+      <div class="bg-image bg-image-header bg-center-center psv-slider">
 
-      <div class="site-branding">
+        <div class="site-branding">
 
-        <?php 
-          $header_logo = get_theme_mod( 'header_logo', customizer_library_get_default( 'header_logo' ) ); if ( ! $header_logo ) { ?>
+          <?php 
+            $header_logo = get_theme_mod( 'header_logo', customizer_library_get_default( 'header_logo' ) ); if ( ! $header_logo ) { ?>
 
-          <h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home" alt="<?php bloginfo( 'name' ); ?>"><?php bloginfo( 'name' ); ?></a></h1>
+            <h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home" alt="<?php bloginfo( 'name' ); ?>"><?php bloginfo( 'name' ); ?></a></h1>
 
-          <h2><?php bloginfo( 'description' ); ?></h2>
+            <h2><?php bloginfo( 'description' ); ?></h2>
 
-        <?php } else { ?>
+          <?php } else { ?>
 
-          <a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img class="logo" src="<?php echo esc_url( $header_logo ); ?>" alt=""></a>
+            <a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img class="logo" src="<?php echo esc_url( $header_logo ); ?>" alt=""></a>
 
-        <?php } ?>
-        <div class = "psv-header-motto">
-        <hr>
-          <p>
-            Red de peruanos en tecnología de Silicon Valley </br>
-            Creando un puente de colaboración con el Perú
-          </p>
-        </div>
+          <?php } ?>
+          <div class = "psv-header-motto">
+          <hr>
+            <p>
+              Red de peruanos en tecnología de Silicon Valley </br>
+              Creando un puente de colaboración con el Perú
+            </p>
+          </div>
 
-      </div><!-- .site-branding -->
-
-
-    </div><!-- .bg-image .bg-image-header .bg-center-center -->
-    <!--div class="peru-sv-slider-wrapper">
-      <img src="wp-content/themes/gateway/img/perusv_bg_web.jpg">
-      <div>Slide 1</div>
-      <div>Slide 2</div>
-      <div>Slide 3</div>
-    </div-->
-
-     <div class="psv-sub-banner">
-      <div class="psv-sub-banner-container">
-        <p>Preguntas. Ideas. Compártelas con la red:</p>
-        <div class="psv-cta-sub-banner-button">
-          <form action="https://goo.gl/forms/VjIt2IlFazHGaUY72" target="new">
-            <button type="submit">
-              Aquí
-            </button>
-          </form>
         </div>
       </div>
-    </div><!-- .psv-sub-banner -->
+
+      <div class="psv-slider">
+        <p>Slide 2 Content</p>
+      </div>
+
+      <div class="bg-image bg-image-header bg-center-center psv-slider">
+
+        <div class="site-branding">
+
+          <?php 
+            $header_logo = get_theme_mod( 'header_logo', customizer_library_get_default( 'header_logo' ) ); if ( ! $header_logo ) { ?>
+
+            <h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home" alt="<?php bloginfo( 'name' ); ?>"><?php bloginfo( 'name' ); ?></a></h1>
+
+            <h2><?php bloginfo( 'description' ); ?></h2>
+
+          <?php } else { ?>
+
+            <a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img class="logo" src="<?php echo esc_url( $header_logo ); ?>" alt=""></a>
+
+          <?php } ?>
+          <div class = "psv-header-motto">
+          <hr>
+            <p>
+              Red de peruanos en tecnología de Silicon Valley </br>
+              Creando un puente de colaboración con el Perú
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="psv-sub-banner">
+    <div class="psv-sub-banner-container">
+      <p>Preguntas. Ideas. Compártelas con la red:</p>
+      <div class="psv-cta-sub-banner-button">
+        <form action="https://goo.gl/forms/VjIt2IlFazHGaUY72" target="new">
+          <button type="submit">
+            Aquí
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
 
   <div id="content" class="site-content">

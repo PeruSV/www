@@ -115,3 +115,32 @@ peru-sv
 .psv-page-post {
   display: inline-block;
 }
+
+/* peru sv slider styles */
+
+@keyframes slidy {
+  0% { left: 0%; }
+  40% { left: 0%;  }
+  50% { left: -100%;  }
+  90% { left: -100%; }
+  100% { left: -200%; }
+}
+
+.psv-slider-wrapper {
+  overflow: hidden;
+}
+
+.psv-slider-wrapper .psv-slider-inner-wrapper .psv-slider {
+  width: 33.33%; 
+  float: left;
+}
+
+.psv-slider-wrapper .psv-slider-inner-wrapper { 
+  position: relative;
+  width: 300%;
+  margin: 0;
+  left: 0;
+  text-align: left;
+  font-size: 0;
+  animation: 15s slidy infinite; 
+}
