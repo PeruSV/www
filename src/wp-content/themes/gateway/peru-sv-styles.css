@@ -177,6 +177,11 @@ peru-sv
   background-position: top;
 }
 
+/* logic to hide banner on permalink pages */
+.single .psv-meetup{
+  display: none;
+}
+
 .psv-meetup-msg{
   padding-top: 318px;
   padding-bottom: 0px;
