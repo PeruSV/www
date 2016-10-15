@@ -72,7 +72,7 @@
         <a href="http://www.meetup.com/PeruSV-Peru-Networking-Professionals-in-Silicon-Valley/events/234662219/" target="new">
         <div class="psv-meetup-msg">
           <p>
-            Participa en el primer evento de networking <br> @Facebook HQ
+            Participa en el primer evento de networking <br>27 de Octubre @Facebook Headquarters <br> <u> Haz click aquí </u>
           </p>
         </div>
         </a>

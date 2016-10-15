@@ -178,8 +178,8 @@ peru-sv
 }
 
 .psv-meetup-msg{
-  padding-top: 320px;
-  padding-bottom: 40px;
+  padding-top: 318px;
+  padding-bottom: 0px;
   text-align: center;
   color: #FFF;
 }
@@ -191,4 +191,5 @@ peru-sv
 .psv-meetup-msg p{
   background-color: rgba(1,0,0,0.5);
   font-size: 25px;
+  -webkit-font-smoothing: antialiased;
 }
