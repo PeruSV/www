@@ -28,7 +28,7 @@ if($slug == "mision") {
       </a>
     </li>
     <li>
-      <a href="mailto:contact@perusv.com?Subject=Perusv%20Contact" target="_top">
+      <a href="mailto:contact@perusv.org?Subject=Perusv%20Contact" target="_top">
         Contacto
       </a>
     </li>
