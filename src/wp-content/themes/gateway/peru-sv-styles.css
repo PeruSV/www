@@ -164,3 +164,31 @@ peru-sv
       line-height: 80px;
     }
 }
+
+/* meetup */
+
+.psv-meetup{
+  background: url(http://perusv.loc/wp-content/themes/gateway/img/meet-up.jpg) center bottom #e8554e;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
+  background-position: top;
+}
+
+.psv-meetup-msg{
+  padding-top: 320px;
+  padding-bottom: 40px;
+  text-align: center;
+  color: #FFF;
+}
+
+.psv-meetup-msg a{
+  color: white;
+}
+
+.psv-meetup-msg p{
+  background-color: rgba(1,0,0,0.5);
+  font-size: 25px;
+}

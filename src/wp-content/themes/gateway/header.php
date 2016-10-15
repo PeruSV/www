@@ -68,8 +68,14 @@
         </div>
       </div>
 
-      <div class="psv-slider">
-        <p>Slide 2 Content</p>
+      <div class="psv-slider psv-meetup">
+        <a href="http://www.meetup.com/PeruSV-Peru-Networking-Professionals-in-Silicon-Valley/events/234662219/" target="new">
+        <div class="psv-meetup-msg">
+          <p>
+            Participa del primer evento de networking <br> @Facebook HQ
+          </p>
+        </div>
+        </a>
       </div>
 
       <div class="bg-image bg-image-header bg-center-center psv-slider">
