@@ -168,7 +168,7 @@ peru-sv
 /* meetup */
 
 .psv-meetup{
-  background: url(http://perusv.loc/wp-content/themes/gateway/img/meet-up.jpg) center bottom #e8554e;
+  background: url(./img/meet-up.jpg) center bottom #e8554e;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
