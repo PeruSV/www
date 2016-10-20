@@ -4,7 +4,7 @@
 <!-- Start of Post Wrap -->
 <div class="post hentry ivycat-post psv-page-post">
 	<!-- This is the output of the post TITLE -->
-	<h2 class="entry-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+	<h3 class="entry-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
 	<!-- This will output of the featured image thumbnail  -->
 	<div class="featured-image">
 		<?php the_post_thumbnail( 'thumbnail' ); ?>
