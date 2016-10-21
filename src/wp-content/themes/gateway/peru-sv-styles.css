@@ -77,6 +77,24 @@ peru-sv
   font-size: 25px;
   -webkit-font-smoothing: antialiased;
 }
+.psv-who-we-are-container {
+
+}
+.psv-who-we-are-container header {
+  text-align: center;
+  color: black;
+}
+.perusv-page-title {
+  margin: 50px 0;
+}
+.perusv-page-title p{
+  line-height: 30px;
+  margin: 0;
+  font-size: 20px;
+  -webkit-font-smoothing: antialiased;
+  color: black;
+  text-align: center;
+}
 .psv-mission-banner-container{
   color: white;
   text-align: left;
