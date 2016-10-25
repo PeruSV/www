@@ -27,15 +27,12 @@
 		<?php endif; ?>
 	</header><!-- .entry-header -->
 
-	<div class="entry-content">
-		<?php
-			/* translators: %s: Name of current post */
-			the_content( sprintf(
-				__( 'more %s <span class="meta-nav">...</span>', 'gateway' ),
-				the_title( '<span class="screen-reader-text">"', '"</span>', false )
-			) );
-		?>
+	<!-- This is the output of the EXCERPT -->
+	<div class="entry-summary">
+		<?php the_excerpt(); ?>
+	</div>
 
+	<div class="entry-content">
 		<?php
 			wp_link_pages( array(
 				'before' => '<div class="page-links">' . __( 'Pages:', 'gateway' ),

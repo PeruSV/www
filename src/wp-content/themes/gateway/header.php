@@ -122,4 +122,3 @@
   </div>
 
   <div id="content" class="site-content">
-  <?php get_template_part( 'template-parts/content-who-are-we', get_post_format() ); ?>
